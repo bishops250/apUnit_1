@@ -1,3 +1,7 @@
+/* A.B September 13,2019
+Solves for the amount of paint needed to paint a room.
+ */
+
 public class Painting {
 
 public static void main(String[]args) {

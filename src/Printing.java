@@ -1,4 +1,13 @@
-
+/*A.B
+The program Prints ASCII Art and quick statement.
+and This Art!!
+   \/
+  \\//
+ \\\///
+ ///\\\
+  //\\
+   /\
+ */
 public class Printing {
 
         public static void main(String[] args) {
