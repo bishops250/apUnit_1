@@ -1,3 +1,4 @@
+
 public class Rectangular_area {
 
     public static void main(String[] args) {
