@@ -1,3 +1,6 @@
+/*
+Finds the average of fours numbers its put to the user to choose the three values.
+ */
 import java.util.Scanner;
 
 public class Find_The_Average {
