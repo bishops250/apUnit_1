@@ -10,13 +10,13 @@ public class Add_One_Take_One {
         Scanner user_input = new Scanner(System.in);
 
         System.out.println("Please Input the number you would like added three times: ");
-        number_being_added_3_times = user_input.nextInt();
+                number_being_added_3_times = user_input.nextInt();
 
 
         System.out.print(number_being_added_3_times++ +" ");
         System.out.print(number_being_added_3_times++ +" ");
         System.out.print(number_being_added_3_times++);
 
-
+        
     }
 }
