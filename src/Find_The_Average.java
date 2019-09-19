@@ -1,3 +1,6 @@
+/*
+Finds the average of fours numbers its put to the user to choose the three values.
+ */
 import java.util.Scanner;
 
 public class Find_The_Average {
@@ -27,12 +30,6 @@ public class Find_The_Average {
 
         System.out.println("The Average of the four numbers is: "+average_of_the_4_numbers);
 
-
-
     }
-
-
-
-
 
 }
