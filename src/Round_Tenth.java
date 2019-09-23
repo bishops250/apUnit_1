@@ -9,10 +9,12 @@ public class Round_Tenth {
         Scanner user_input = new Scanner(System.in);
 
         System.out.println("Please Input the number you would like rounded to the nearest tenth: ");
-        double unrounded_number = user_input.nextDouble();
+       double initial_value =user_input.nextDouble();
 
-        double rounded_number = (int) (unrounded_number + 0.05);
+        double unrounded_number = (initial_value * 10) + 0.5;
 
-        System.out.println(unrounded_number + " rounded is " + rounded_number);
+        double rounded_number=(int) unrounded_number / 10.0;
+
+        System.out.println(initial_value + " rounded is " + rounded_number);
     }
 }
