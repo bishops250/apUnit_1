@@ -9,7 +9,7 @@ public class Round_Negatives {
         System.out.println("Please Input the number you would like rounded: ");
         double unrounded_number = user_input.nextDouble();
 
-        double rounded_number = (int) (unrounded_number + 0.5);
+        double rounded_number = (int) (unrounded_number - 0.5);
 
         System.out.println(unrounded_number + " rounded is " + rounded_number);
     }
