@@ -21,7 +21,7 @@ public class Painting_problems_user_input {
         double amount_paint_needed;
         int number_doors;
         int number_windows;
-        double gallons_per_paint_area;
+        final double GALLONS_PER_PAINT_AREA;
 
         System.out.println("\t\t\tA.B Amount of Paint Calculator!!!");
         System.out.println("The program that calculates the number of gallons needed to paint the walls\n" +
@@ -55,10 +55,10 @@ public class Painting_problems_user_input {
 
         door_area = 20 * number_doors;
         window_area = 15 * number_windows;
-        gallons_per_paint_area = input.nextDouble();
+        GALLONS_PER_PAINT_AREA = input.nextDouble();
         room_area= (room_height * room_length)*(2) + (room_width * room_height)*(2) + (room_length* room_width) -
                 (door_area + window_area);
-        amount_paint_needed = room_area / gallons_per_paint_area;
+        amount_paint_needed = room_area / GALLONS_PER_PAINT_AREA;
 
 
         System.out.println("The amount of paint you need to paint the room is " + amount_paint_needed + " gallons of paint.");
